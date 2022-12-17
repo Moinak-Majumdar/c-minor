@@ -4,7 +4,7 @@
 
 int main() {
     int a;
-    printf("Enter your age ==> ");
+    printf("\nEnter your age ==> ");
     scanf("%d",&a);
     printf("\nyour age is => %d", a);
 }
