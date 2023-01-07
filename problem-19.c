@@ -13,6 +13,4 @@ int main() {
     }
 
     printf("\nSum of digits of a number %d is : %d",n,sum);
-
-    return 0;
 }

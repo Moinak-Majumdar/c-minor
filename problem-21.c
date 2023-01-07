@@ -1,11 +1,9 @@
 // hl4  wap to check the given number is armstrong or not.
 #include <stdio.h>
 #include <math.h>
-
 int main() {
     int n, original_n, remainder, result = 0, n_digits = 0;
 
-    
     printf("\nEnter a number: ");
     scanf("%d", &n);
 
@@ -15,8 +13,7 @@ int main() {
         n /= 10;
         n_digits++;
     }
-
-    
+ 
     n = original_n;
     while (n != 0) {
         remainder = n % 10;

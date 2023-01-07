@@ -3,7 +3,6 @@
 int main () {
     int start, end, i;
 
-    
     printf("\nEnter the start of the range : ");
     scanf("%d", &start);
     printf("\nEnter the end of the range : ");
@@ -15,5 +14,4 @@ int main () {
             printf("%d ", i);
         }
     }
-
 }

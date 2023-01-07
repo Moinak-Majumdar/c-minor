@@ -1,6 +1,5 @@
 // hl4 wap to find a number is prime or not.
 #include <stdio.h>
-
 int main() {
     int n, i, is_prime = 1;
 
@@ -19,6 +18,4 @@ int main() {
     } else {
         printf("\n%d is not a prime number.\n", n);
     }
-
-    return 0;
 }

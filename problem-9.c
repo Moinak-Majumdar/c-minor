@@ -1,3 +1,4 @@
+// hl4 WAP to input basic salary of an employee and calculate its Gross salary according to following: Basic Salary <= 10000 : HRA = 20%, DA = 80% Basic Salary <= 20000 : HRA = 25%, DA = 90% Basic Salary > 20000 : HRA = 30%, DA = 95%  
 #include <stdio.h>
 
 int main()
@@ -23,5 +24,4 @@ int main()
     printf("\nHRA : %.2f",hra);
     printf("\nDa : %.2f",da);
     printf("\nGross : %.2f",total);
-
 }

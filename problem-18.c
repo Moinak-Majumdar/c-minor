@@ -1,6 +1,5 @@
 // hl5 #include <stdio.h>
 #include <stdio.h>
-
 int main() {
     int n, reversed_n = 0, remainder;
 
@@ -14,7 +13,5 @@ int main() {
     }
 
     printf("\nReversed number is : %d", reversed_n);
-
-    return 0;
 }
 
