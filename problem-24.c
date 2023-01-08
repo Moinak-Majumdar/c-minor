@@ -42,7 +42,7 @@ int main() {
     displayMatrix(A);
     printf("\nMatrix B is : \n\n");
     displayMatrix(B);
-    printf("\nAddition of A - B is : \n\n");
+    printf("\nA - B is : \n\n");
     subMatrix(A,B,res);
     displayMatrix(res);
 }

@@ -1,3 +1,4 @@
+// hl7 wap to implement string copy, sting concat, string length and string compare using string method.
 #include<stdio.h>
 #include<string.h>
 #define size 25

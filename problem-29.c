@@ -14,23 +14,23 @@ void push() {
         stack[++top] = val;
     }
 }
-int pop() {
+void pop() {
     if(top == -1) {
         printf("\nStack Underflow");
         exit(0);
     }
-    return(stack[top--]);
+    printf("\nPoped element : %d", stack[top--]);
 }
 void display() {
     int i;
-    printf("Stack elements are : ");
+    printf("\nStack elements are : ");
     for ( i = 0; i <= top; i++){
         printf("%d ",stack[i]);
     }
 }
 
 int main() {
-    int ch,temp;
+    int ch;
 
     while(1) {
         printf("\n1.Push, 2.Pop, 3.Display, 4.Exit");
@@ -42,8 +42,7 @@ int main() {
                 push();
                 break;
             case 2 :
-                temp = pop();
-                printf("\nPoped element : %d", temp);
+                pop();
                 break;
             case 3 : 
                 display();
