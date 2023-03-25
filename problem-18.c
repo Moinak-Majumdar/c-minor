@@ -1,4 +1,4 @@
-// hl5 #include <stdio.h>
+// hl5 
 #include <stdio.h>
 int main() {
     int n, reversed_n = 0, remainder;
